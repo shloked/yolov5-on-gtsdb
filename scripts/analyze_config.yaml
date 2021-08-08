@@ -1,0 +1,37 @@
+
+dataroot: "/home/ubuntu/Shlok/gtsdb/data"
+imgfolder: "FullIJCNN2013"
+gtpath: "../data/FullIJCNN2013/gtnew.txt"
+detpath: "../data/GTSDB.json"
+
+iou_thresh: 0.5
+# CLASS_MAPPING: {
+#     15: "RedRoundSign",
+#     13: "pg",
+#     14: "ps",
+#     17: "pne",
+#     43: "pn",
+#     44: "pn",
+# }
+
+CLASS_MAPPING: {
+    15: "RedRoundSign",
+    13: "pg",
+    14: "ps",
+    17: "pne",
+    43: "pn",
+    44: "pn",
+    0: "RedRoundSign",
+    1: "RedRoundSign",
+    2: "RedRoundSign",
+    3: "RedRoundSign",
+    4: "RedRoundSign",
+    5: "RedRoundSign",
+    6: "RedRoundSign",
+    7: "RedRoundSign",
+    8: "RedRoundSign",
+    9: "RedRoundSign",
+    10: "RedRoundSign",
+    16: "RedRoundSign",
+
+}
